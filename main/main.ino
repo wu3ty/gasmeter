@@ -5,8 +5,8 @@ ESP8266WebServer server(80);
 
 /** Configuration **/
 #define DEBUG 0
-const char* ssid = "***REMOVED***";
-const char* password = "***REMOVED***";
+const char* ssid = "";
+const char* password = "";
 
 #define INPUT_PIN_REED D2
 float global_meter = -1;
